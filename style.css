@@ -1,53 +1,56 @@
 *{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
-.cuisins{
-    background-color: rgb(127, 229, 255);
-    color: blueviolet;
+.book{
+    background-color: blueviolet;
+    color: white;
     text-align: center;
     padding: 14px;
+    font-size: 40px;
 }
 
-.sins{
-    background-color: rgb(53, 172, 228);
+.club{
+background-color: rgb(255, 0, 255);
+color: white;
+padding-top: 12px;
+padding-bottom: 12px;
+font-size: 18px;
+}
+.welcome{
+    background-color: rgb(183, 0, 255);
     color: white;
-    font-size: 18px;
-    padding-top: 14px;
-    padding-bottom: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px;
+    padding-top: 20px;
+    font-weight: bold;
+
 }
-h4{
-    background-color: rgb(210, 122, 232);
-    padding: 4px;
-    font-size: 14px;
-}
-.order{
-    background-color: rgb(157, 0, 255);
-    color: white;
-    padding: 8px;
-}
-.rice{
-    background-color: rgb(208, 127, 255);
+.Popular{
+    background-color: rgb(223, 118, 218);
     color: black;
 }
-.rice-head{
-    background-color: blueviolet;
+.popular-head{
+    background-color: rgb(231, 33, 207);
     text-align: center;
-    font-size: 30px;
+    font-size: 30x;
     padding: 8px;
 }
-.pic1-rice{
-    background-color: bisque;
+.pic1{
+    background-color: white;
     width: fit-content;
     padding: 8px;
+    margin-top: 8px;
 }
 .pic1-sty{
-    width: 100px;
+    width: 150px;
     object-fit: cover;
     border-radius: 8px;
 }
-.rice-name{
+.books-name{
     color: black;
     text-align: center;
-    margin-top: 8px;
+    font-size: medium;
 }
