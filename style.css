@@ -1,56 +1,103 @@
 *{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    
 }
-.book{
-    background-color: blueviolet;
-    color: white;
+.cuisins{
+    background-color: rgb(127, 229, 255);
+    color: blueviolet;
     text-align: center;
     padding: 14px;
-    font-size: 40px;
 }
 
-.club{
-background-color: rgb(255, 0, 255);
-color: white;
-padding-top: 12px;
-padding-bottom: 12px;
-font-size: 18px;
-}
-.welcome{
-    background-color: rgb(183, 0, 255);
+.sins{
+    background-color: rgb(53, 172, 228);
     color: white;
-    text-align: center;
-    text-transform: uppercase;
-    padding: 15px;
-    padding-top: 20px;
-    font-weight: bold;
-
+    font-size: 18px;
+    padding-top: 14px;
+    padding-bottom: 14px;
 }
-.Popular{
-    background-color: rgb(223, 118, 218);
+h4{
+    background-color: rgb(210, 122, 232);
+    padding: 4px;
+    font-size: 14px;
+}
+.order{
+    background-color: rgb(157, 0, 255);
+    color: white;
+    padding: 8px;
+}
+.pie{
+    background-color: rgb(208, 127, 255);
     color: black;
 }
-.popular-head{
-    background-color: rgb(231, 33, 207);
+.pie-head{
+    background-color: blueviolet;
     text-align: center;
-    font-size: 30x;
+    font-size: 30px;
     padding: 8px;
 }
-.pic1{
-    background-color: white;
+.pic1-pie{
+    background-color: bisque;
     width: fit-content;
     padding: 8px;
-    margin-top: 8px;
 }
 .pic1-sty{
-    width: 150px;
+    width: 100px;
     object-fit: cover;
     border-radius: 8px;
 }
-.books-name{
+.pie-name{
     color: black;
     text-align: center;
-    font-size: medium;
+    margin-top: 8px;
+}
+.habit{
+    background-color: rgb(121, 107, 225);
+    opacity: 0.9;
+}
+.habit-card{
+    position: relative;
+}
+.habit-img1{
+    height:250px;
+    position: absolute;
+    right: 20%;
+}
+.habit-img2{
+    height: 250px;
+    
+}
+.habit-img3{
+    height: 250px;
+}
+.below-recipe{
+    padding-top: 250px;
+    font-size: 20px;
+}
+.below-recipe2{
+    font-size:20px ;
+}
+.popular-display{
+    background-color: rgb(198, 84, 213);
+}
+.popular-title{
+    background-color: rgb(83, 83, 239);
+    text-align: center;
+    padding: 8px;
+    font-size: 30px;
+}
+.popular-container{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    padding: 8px;
+}
+.popular-img{
+    height: 100px;
+}
+.foot{
+    background-color: rgb(76, 202, 148);
+    padding: 25px;
+    font-size: 25px;
+    text-align: center;
 }
